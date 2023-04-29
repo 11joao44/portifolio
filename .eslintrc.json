@@ -16,15 +16,17 @@
         "sourceType": "module"
     },
     "plugins": [
+        // Adicionando Plugins
         "react",
         "@typescript-eslint",
         "react-hooks"
     ],
     "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/prop-types": "off",
-      "react/react-in-jsx-scope": "off",
+      // Criando Regras
+      "react-hooks/rules-of-hooks": "error", // aponta um hook com erro
+      "react-hooks/exhaustive-deps": "warn", // problema nas dependencias aciona um alerta
+      "react/prop-types": "off", // desligando o prop-types pois será desnecessario
+      "react/react-in-jsx-scope": "off", // desligando a obrigatoridade de importa o react para que não conste como erro
       "@typescript-eslint/explicit-module-boundary-types": "off"
     },
     "settings": {

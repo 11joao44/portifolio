@@ -1,6 +1,7 @@
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": false, // desligando formatado padrão do vscode para usar a do prettier
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "source.fixAll.eslint": true
+  },
+  "liveServer.settings.port": 5501
 }
